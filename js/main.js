@@ -24,7 +24,7 @@ let duration = 75;
 // -----------------------------------------------
 
 let myRequist = new XMLHttpRequest();
-myRequist.open("GET", "../json/html.json", true);
+myRequist.open("GET", "./json/html.json", true);
 myRequist.send();
 
 myRequist.onreadystatechange = () => {
