@@ -18,7 +18,7 @@ let TimerContainer = document.querySelector(".timer");
 let currentQuestion = 0;
 let rightAnswer = 0;
 let intervalTimer;
-let duration = 75;
+let duration = 17;
 
 // Get The Question And The Choices From json File:
 // -----------------------------------------------
