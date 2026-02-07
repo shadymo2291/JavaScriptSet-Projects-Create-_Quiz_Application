@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../media/concrete-wall.png);
+}
+
+:root {
+    --main-color: #e91e63;
+}
+
+/* 
+Start Styling [Header]
+========================================
+*/
+
+header {
+    width: 100Vw;
+    background-image: linear-gradient(180deg, lab(32.93% 0.82 0.29 / 0.437), 70%, transparent);
+    padding: 20px 0;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+/* 
+Start Styling [Main Content]
+========================================
+*/
+
+main {
+    width: 600px;
+    margin: auto;
+    background-color: var(--main-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.quiz_header,
+.select_quiz{
+    background-color: #fff;
+    color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.select_quiz {
+    margin-bottom: 10px;
+
+}
+
+.select_quiz p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.select_quiz select {
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+    outline: none;
+}
+
+.quiz_header .question_Number {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quiz_header .question_Number span:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.question_area {
+    background-color: #fff;
+    color: var(--main-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.question_area .question,
+.question_area .choices_container {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.question_area .question {
+    border-bottom: 2px solid #fff;
+}
+
+.question_area .choices_container {
+    border-radius: 0 0 10px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.question_area .choices_container .choice {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.question_area .choices_container .choice:hover {
+    background-color: #ca0345;
+}
+
+.question_area .choices_container label {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.3s;
+}
+
+.question_area .choices_container input:checked + label {
+    font-weight: bold;
+}
+
+.question_area .btn {
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s;
+}
+
+.question_area .btn:hover {
+    transform: translateY(-2px) scaleY(1.05);
+    background-color: #ca0345;
+}
+
+.question_area .info {
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question_area .bullets {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.question_area .bullets span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.question_area .bullets span.done {
+    background-color: var(--main-color);
+}
+
+.result {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: var(--main-color);
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+.result span {
+    font-size: 18px;
+    font-weight: bold;
+}

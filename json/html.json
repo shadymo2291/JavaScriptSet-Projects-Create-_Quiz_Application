@@ -1,0 +1,172 @@
+{
+  "quiz_title": "HTML Basics Quiz",
+  "level": "Beginner",
+  "total_questions": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "choices": {
+        "a": "Hyper Text Markup Language",
+        "b": "High Tech Modern Language",
+        "c": "Hyper Transfer Markup Language",
+        "d": "Home Tool Markup Language"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": 2,
+      "question": "Which tag is used to define the main content of an HTML document?",
+      "choices": {
+        "a": "<main>",
+        "b": "<body>",
+        "c": "<html>",
+        "d": "<content>"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "What is the correct HTML element for the largest heading?",
+      "choices": {
+        "a": "<h6>",
+        "b": "<head>",
+        "c": "<heading>",
+        "d": "<h1>"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "id": 4,
+      "question": "Which attribute is used to specify a unique ID for an HTML element?",
+      "choices": {
+        "a": "class",
+        "b": "id",
+        "c": "name",
+        "d": "type"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 5,
+      "question": "How do you create a hyperlink in HTML?",
+      "choices": {
+        "a": "<link>",
+        "b": "<a>",
+        "c": "<href>",
+        "d": "<url>"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 6,
+      "question": "Which tag is used to insert a line break?",
+      "choices": {
+        "a": "<break>",
+        "b": "<lb>",
+        "c": "<br>",
+        "d": "<newline>"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 7,
+      "question": "What is the correct HTML for adding a background color?",
+      "choices": {
+        "a": "<body style=\"background-color:yellow;\">",
+        "b": "<body bg=\"yellow\">",
+        "c": "<background>yellow</background>",
+        "d": "<body color=\"yellow\">"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "id": 8,
+      "question": "Which tag is used to define an unordered list?",
+      "choices": {
+        "a": "<ol>",
+        "b": "<list>",
+        "c": "<ul>",
+        "d": "<li>"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 9,
+      "question": "What is the correct HTML element for playing video files?",
+      "choices": {
+        "a": "<media>",
+        "b": "<movie>",
+        "c": "<video>",
+        "d": "<film>"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 10,
+      "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+      "choices": {
+        "a": "title",
+        "b": "src",
+        "c": "alt",
+        "d": "longdesc"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 11,
+      "question": "How can you make a numbered list?",
+      "choices": {
+        "a": "<ul>",
+        "b": "<dl>",
+        "c": "<ol>",
+        "d": "<list>"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 12,
+      "question": "Which tag is used to define a table row?",
+      "choices": {
+        "a": "<td>",
+        "b": "<tr>",
+        "c": "<th>",
+        "d": "<table>"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 13,
+      "question": "What does the <strong> tag do?",
+      "choices": {
+        "a": "Italicizes text",
+        "b": "Creates bold text",
+        "c": "Makes text important (typically bold)",
+        "d": "Underlines text"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "id": 14,
+      "question": "Which HTML element is used to specify a footer for a document or section?",
+      "choices": {
+        "a": "<bottom>",
+        "b": "<footer>",
+        "c": "<section>",
+        "d": "<foot>"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "id": 15,
+      "question": "Which character is used to indicate an end tag?",
+      "choices": {
+        "a": "^",
+        "b": "*",
+        "c": "/",
+        "d": "<"
+      },
+      "correct_answer": "c"
+    }
+  ]
+}
