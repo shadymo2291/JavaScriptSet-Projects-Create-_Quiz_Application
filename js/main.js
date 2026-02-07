@@ -165,7 +165,7 @@ function showResult(numberOfQuestion) {
   result.className = "resultContainer";
 
   let rightAnswerNumer = document.createElement("p");
-  rightAnswerNumer.innerHTML = `The Right Answer: ${rightAnswer} `;
+  rightAnswerNumer.innerHTML = `The Right Answers: ${rightAnswer} `;
   rightAnswerNumer.style.margin = "10px 0";
 
   result.appendChild(rightAnswerNumer);
